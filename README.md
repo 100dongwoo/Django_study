@@ -15,3 +15,24 @@ Django 첫 공부 파일
 
 ## Create app
 - python manage.py startapp polls
+
+# 가상서버 만들기
+
+```
+# 프로젝트 내의 가상환경을 만들어줍니다.
+python -m venv venv
+
+# 가상환경을 활성화해줍니다.
+. venv/bin/activate         - mac
+venv\Scripts\activate.bat   - window
+
+# 프로젝트에 사용된 모든 패키지를 간편하게 설치하기 위해 다음 명령어를 입력합니다. 
+pip install -r requirements.txt
+
+# 데이터베이스에 변경이 있으므로 이를 반영해주는 migrate 명령어를 입력합니다.
+python manage.py migrate
+
+# 웹 서버를 실행합니다.
+python manage.py runserver
+```
+
