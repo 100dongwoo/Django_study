@@ -26,6 +26,9 @@ python -m venv venv
 . venv/bin/activate         - mac
 venv\Scripts\activate.bat   - window
 
+# install django
+pip install django
+
 # 데이터베이스에 변경이 있으므로 이를 반영해주는 migrate 명령어를 입력합니다.
 python manage.py migrate
 
