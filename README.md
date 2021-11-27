@@ -26,9 +26,6 @@ python -m venv venv
 . venv/bin/activate         - mac
 venv\Scripts\activate.bat   - window
 
-# 프로젝트에 사용된 모든 패키지를 간편하게 설치하기 위해 다음 명령어를 입력합니다. 
-pip install -r requirements.txt
-
 # 데이터베이스에 변경이 있으므로 이를 반영해주는 migrate 명령어를 입력합니다.
 python manage.py migrate
 
